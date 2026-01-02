@@ -1,3 +1,4 @@
+
 # score = int(input("What is your grade of the exam"))
 
 # if score > 90:
@@ -19,3 +20,13 @@ if password == " python123":
    print("Access Granted")
 else:
    print("This is inccorect, Access Denied")
+
+#Check user name and password
+
+username = input("What is your username")
+password  = input("What is your password")
+
+if username =="Noxin" and password =="apple":
+   print("Access Granted")
+else:
+   print("Access Denied ")
