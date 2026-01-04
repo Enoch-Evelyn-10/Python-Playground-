@@ -1,5 +1,5 @@
 
-# score = int(input("What is your grade of the exam"))
+#1. score = int(input("What is your grade of the exam"))
 
 # if score > 90:
 #     print ("You got an A") 
@@ -12,21 +12,21 @@
 # else:
 #     print ("You got an F") 
 
-# Check if a password matches "python123"
+# 2. Check if a password matches "python123"
 
-password = input("Enter your password" )
+# password = input("Enter your password" )
 
-if password == " python123":
-   print("Access Granted")
-else:
-   print("This is inccorect, Access Denied")
+# if password == " python123":
+#    print("Access Granted")
+# else:
+#    print("This is inccorect, Access Denied")
 
-#Check user name and password
+# 3. Check user name and password
 
 username = input("What is your username")
 password  = input("What is your password")
 
-if username =="Noxin" and password =="apple":
+if username ==" Noxin" and password ==" apple":
    print("Access Granted")
 else:
    print("Access Denied ")
